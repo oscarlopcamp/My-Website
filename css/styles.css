@@ -54,6 +54,9 @@ hr{
   padding-top: 40px;
   padding-bottom: 10px;
 }
+.center{
+  font-size: 4em;
+}
 
 .pro{
   text-decoration: underline;
@@ -83,6 +86,9 @@ hr{
   font-size: 4rem;
 }
 
+.middle-container a{
+  color: #fff;
+}
 
 .contact-me{
   font-size: 3rem;
