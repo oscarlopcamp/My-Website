@@ -20,17 +20,13 @@ margin: 0;
 }
 
 nav a{
+  text-align: center;
 	color: #fff;
 	text-decoration: none;
 	font-size: 40px;
+  padding-right: 70px;
 }
-nav ul{
-	display:flex;
-  list-style:none;
-}
-nav li{
-	padding-right: 50px;
-}
+
 nav h2{
   font-size: 2.5rem;
 }
@@ -79,9 +75,9 @@ hr{
 .middle-container p{
   background-color: #66bfbf;
   padding: 1em 7em 1em 7em;
-  width: 70%;
   font-size: 2.5rem;
   margin: 0;
+  width: auto;
 }
 .middle-container{
   font-size: 4rem;
@@ -93,34 +89,4 @@ hr{
 }
 .contact-me p{
   font-size: 1rem;
-}
-@media(max-width: 768px){
-  header {
-    padding: 0;
-    text-align: center;
-  }
-  header img{
-    float: none;
-    padding: 10px 0 0 0;
-    width: 200px
-  }
-  nav{
-    padding: 0;
-    text-align: center;
-  }
-  nav ul{
-    text-align: center;
-    padding: 6rem;
-  }
-  nav il{
-    text-align: center;
-    padding: 0;
-  }
-  .middle-container p{
-    padding: 3em;
-    text-align: center;
-  }
-  #title{
-    padding-top:1px;
-  }
 }
